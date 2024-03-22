@@ -7,7 +7,7 @@ import os
 class InventoryApp:
     def __init__(self, root):
         self.root = root
-        self.root.title("AIS Inventory Management")
+        self.root.title("Inventory Management")
 
         self.products = {}
         self.product_names = self.load_product_names()
